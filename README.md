@@ -27,3 +27,9 @@ A 75% keyboard made from scratch with a magnetic attatchable numpad
 
 ### Bill of Materials
 ![BOM](BOM.md)
+
+### Main PCB Order
+![alt text](resources/mainpcborder.png)
+
+### PAD PCB Order
+![alt text](resources/PADPCBOrder.png)
