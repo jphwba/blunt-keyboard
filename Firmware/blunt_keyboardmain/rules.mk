@@ -1,0 +1,7 @@
+MCU = RP2040
+BOOTLOADER = rp2040
+
+RGB_MATRIX_ENABLE = yes
+WS2812_DRIVER = vendor
+
+SRC += rgb_matrix.c
