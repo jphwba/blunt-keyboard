@@ -1,6 +1,13 @@
 # Blunt-Keyboard
 
 This keyboard is a 75% keyboard which has a magnetically attatchable numpad to it. It uses a raspberry pi pico rp2040 as the microcontroller for the main keyboard while using a xiao seeed studio rp2040 as the microcontroller for the numpad. This would connect via two usb C cables into my pc. I made this because I really need a new keyboard since my current one cant even play games anymore due to some weird bug in the pcb where it just randomly spams keys, plus I've had it for almost 10 years.
+
+## Assembly
+On the main part of the keyboard, the pcb is mounted using five mounting holes on the pcb and five standoffs on the base where M2 heatset inserts will sit. On top of these standoffs will go the PCB where it will be screwed into the base. Then the top goes ontop of the pcb/base walls. This is connected via screws going from the bottom to the top<img width="237" height="314" alt="image" src="https://github.com/user-attachments/assets/9a38c4e7-714e-4ef2-ba27-591aec8efabc" />
+The numpad however is screwed in with the threads in the 3d print. This was not a great design choice at the time as I wasn't as experienced with how 3d printers work but I will take the gamble and if it doesn't work I am able to use tape. HOWEVER the pcb is screwed into the base using the same heatset inserts so the pcb will be secured. The key plate is attatched to the top cover with a joint (i forgot the name)<img width="265" height="398" alt="image" src="https://github.com/user-attachments/assets/843ab95d-2b22-4052-83b9-75bd58d2fb6e" />.
+For the magnetic attatchements, two 7mm magnets go in two the 7mm wide holes on BOTH the numpad and the main keyboard and is attatched to each part with some basic super glue. With this the two devices can seamlessly attatch and detach. The two components also have seperate microcontrollers, meaning two different usb connections into my pc. I chose this over having the numpad atatch into the main keyboard for first simple firmware and schematic design but also because it means I have a portable numpad.
+
+
 ### Numpad Render
 ![NumPad1](resources/numpad1.png)
 ![Numpad2](resources/numpad2.png)
